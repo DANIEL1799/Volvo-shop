@@ -1,0 +1,141 @@
+body {
+    color: rgb(233, 211, 211);
+    background-color: rgba(60, 47, 45, 0.926);
+}
+
+span {
+    background-color: rgb(32, 35, 35);
+    font-size: medium display: block;
+    margin: default padding:default
+}
+
+p {
+    margin: 10%;
+    padding: 5%;
+    font-size: 20px;
+}
+
+.label {
+    background-color: rgb(11, 34, 76);
+
+}
+
+.one {
+    margin: 1%;
+    border-radius: 10%;
+    display: inline-block;
+    width: 40%;
+    height:40vh;
+    background: rgb(39, 39, 125);
+    box-shadow: 2px 2px 10px 1px darkslateblue;
+    transition: 4s;
+}
+
+
+
+#model4 {
+    font-style: normal;
+    font-size: 3rem;
+
+
+}
+
+.model {
+    font-size: 50px;
+}
+
+
+.one:hover {
+    transform: scale(1.2);
+    background-color: rgb(128, 43, 162);
+}
+
+
+.two {
+    margin: 1%;
+    border-radius: 10%;
+    display: inline-block;
+    width: 30%;
+    background: rgb(57, 136, 211);
+    box-shadow: 2px 2px 10px 1px rgb(182, 160, 237);
+    transition: 2s;
+
+}
+
+.two:hover {
+    transform: scale(1.2);
+    background-color: rgba(27, 26, 26, 0.961);
+}
+
+
+img {
+    width: 50%;
+    height: 120px;
+    border-radius: 20%;
+}
+
+
+
+
+.kaniuNav {
+    display: flex;
+
+    background-color: rgb(144, 136, 210);
+
+    text-decoration: none;
+    font-size: 17px;
+
+}
+
+.kaniuNav a {
+    flex: 1;
+    color: rgb(163, 211, 31);
+    padding-top: 2%;
+    padding-bottom: 2%;
+
+}
+
+.kaniuNav a:active {
+    color: rgb(253, 251, 251);
+
+
+}
+
+.kaniuNav a:hover {
+    background-color: rgb(11, 13, 10);
+
+}
+
+.kaniuNav {
+    color: aqua;
+
+
+
+}
+
+@media screen and (max-width: 768px) {
+    body {
+        background: darkcyan;
+    }
+
+    .column {
+        display: inline-flex;
+        flex-wrap: wrap;
+        }
+
+        .one {
+            width: 80%;
+            margin: auto;
+margin-top: 3%;
+        }
+
+
+
+
+
+    }
+
+
+
+
+}
